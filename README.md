@@ -1,13 +1,13 @@
 # SysProg-and-OS-Admin-Labs
-Цей репозиторій створено для лабораторних робіт з курсу
-"Системне програмування та адміністрування ОС".
+This repository was created for laboratory works on the course
+"System Programming and OS Administration".
 
-## Вміст репозиторію
+## Repository contents
 
-- `count_files.sh` — Bash-скрипт для підрахунку файлів у директорії (Лаб. №2)
+- `count_files.sh` — Bash script for counting files in a directory (Lab 2)
 
-## Використання
+## Usage
 ./count_files.sh
 
-## Автор
-Студентка групи ПІ-242, Вікторія Кошман
+## Author
+Student of group PI-242, Viktoria Koshman
