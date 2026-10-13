@@ -1,0 +1,21 @@
+name: Bash Syntax Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check Bash syntax
+        run: |
+          for file in *.sh; do
+            echo "Checking $file..."
+            bash -n "$file"
+          done
