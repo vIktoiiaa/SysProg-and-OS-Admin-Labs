@@ -1,0 +1,8 @@
+count-files (1.0-1) resolute; urgency=medium
+
+  * Initial release.
+  * Add configuration file /etc/count_files.conf
+  * Add postinst and prerm scripts
+  * Upload to Launchpad PPA
+
+ -- vIktoiiaa <kosmanvika22@gmail.com>  Sun, 22 Nov 2026 01:50:00 +0200

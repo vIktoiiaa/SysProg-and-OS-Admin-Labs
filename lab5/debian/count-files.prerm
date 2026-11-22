@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+
+case "$1" in
+    remove|deconfigure)
+        echo "count-files: видаляється. Конфіг /etc/count_files.conf буде збережено."
+        ;;
+esac
+
+#DEBHELPER#
+
+exit 0

@@ -1,0 +1,17 @@
+#!/bin/bash
+set -e
+
+case "$1" in
+    configure)
+        echo "count-files: встановлено."
+        echo "  Конфіг:  /etc/count_files.conf"
+        if [ -f /etc/count_files.conf ]; then
+            echo "  Поточні налаштування:"
+            grep -E '^[A-Z_]+=' /etc/count_files.conf | sed 's/^/    /'
+        fi
+        ;;
+esac
+
+#DEBHELPER#
+
+exit 0
